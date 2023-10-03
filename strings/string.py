@@ -74,4 +74,42 @@ income = 9898989898.9898989898989898
 print(f"{name:s} is a client who is {age:05d} years old and has the income {income:19.5f}")
 
 
+#repetition
+silly = 'hi' + " " + name * 3
+print(silly)
 
+#character encoding
+"""ord(char) to get numerical code for character char 
+chr(num) to get corresponding character for integer num"""
+
+print(ord("A"), ord("a"))
+print(chr(5865), chr(67))
+
+
+# in and not in
+
+
+print('way' in 'John Wayne')
+print('way'.lower() in 'John Wayne'.lower())
+
+print('was' not in 'I am happy')
+
+
+
+"""
+not a -> True if a is False
+         False if a is True
+a and b -> True if both are True
+           False if either is False
+a or b -> True if either or both are True
+          False if neither are True
+"""
+a = 3
+b = 5
+c = 5
+
+print(not a)
+print(a and b) 
+print (b and c)
+print(a or b),
+print(b or c)
